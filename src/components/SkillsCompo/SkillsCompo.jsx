@@ -41,6 +41,8 @@ const SkillsCompo = () => {
                 responsive={responsive}
                 infinite={true}
                 className="skill-slider"
+                autoPlay={true} // Enable auto play
+                autoPlaySpeed={1000}
               >
               {Skills.map((el) => {
                 return (

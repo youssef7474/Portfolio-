@@ -16,6 +16,16 @@ export const  Skills =[
         img:ReactIcon
     },
     {
+        id:4,
+        title:"Redux",
+        img:ReduxIcon
+    },
+    {
+        id:7,
+        title:"TailWind",
+        img:TailWindIcon
+    },
+    {
         id:2,
         title:"JavaScript",
         img:JavaScriptIcon
@@ -24,11 +34,6 @@ export const  Skills =[
         id:3,
         title:"TypeScript",
         img:TypeScriptIcon
-    },
-    {
-        id:4,
-        title:"Redux",
-        img:ReduxIcon
     },
     {
         id:5,
@@ -40,12 +45,6 @@ export const  Skills =[
         id:6,
         title:"BootStrap",
         img:bootstrapIcon
-    }
-    ,
-    {
-        id:7,
-        title:"TailWind",
-        img:TailWindIcon
     }
     ,
     {
