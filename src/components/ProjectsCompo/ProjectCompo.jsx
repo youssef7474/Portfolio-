@@ -44,6 +44,10 @@ const ProjectCompo = () => {
                   </Tab.Pane>
                   <Tab.Pane eventKey="second">
                   <Row>
+                  <div style={{display:"flex",alignItems:"center",justifyContent:"center",marginBottom:"25px"}}>
+                  <h1>TypeScript</h1>
+
+                  </div>
                   {
                     ProjectsTypeScript.map((project, index) => {
                       return (
