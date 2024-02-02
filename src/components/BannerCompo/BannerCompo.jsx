@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Row, Container, Col } from 'react-bootstrap';
 import { ArrowRightCircle } from 'react-bootstrap-icons';
-import headerImg from '../../assets/imges/header-img.svg';
+import headerImg from '../../assets/imges/Hand-coding.svg';
 
 const BannerCompo = () => {
   const [text, setText] = useState('');

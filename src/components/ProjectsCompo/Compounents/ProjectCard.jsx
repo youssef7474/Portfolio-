@@ -13,7 +13,7 @@ const ProjectCard = ({imgUrl,title,description,demoLink,gitHubLink}) => {
   return (
     <Col sm={6} md={4}>
         <div className='proj-imgbx'>
-            <img src={imgUrl} alt='p'></img>
+            <img src={imgUrl} alt='p' style={{maxWidth:"500px",maxHeight:"200px"}}></img>
             <div className='proj-txtx'>
                 <h4>{title}</h4>
                 <span>{description}</span>
